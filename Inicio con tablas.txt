@@ -1,0 +1,79 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="_001_Parqueadero.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Parqueadero Luna de Miel</title>
+    <link rel="icon" href="Imagenes/iconoNuevo.PNG">
+    <link href="css/Styles.css" rel="stylesheet" />
+    <style type="text/css">
+        </style>
+
+    </head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style4">
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    <body background="https://fondosmil.com/fondo/21606.jpg">
+        
+        
+        <table class="auto-style2">
+            <tr>
+                <td class="auto-style12"><strong style="font-family: 'mv Boli'">BIENVENIDO</strong></td>
+            </tr>
+        </table>
+        <table class="auto-style3">
+            <tr>
+                <td class="auto-style5">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagenes/iconoNuevo.PNG" Height="165px" Width="177px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style5">&nbsp;</td>
+            </tr>
+        </table>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style19">
+                    <asp:TextBox ID="txtUusarios" style="font-family: 'mv Boli'" runat="server" Width="180px" placeholder="USUARIO" CssClass="auto-style21"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style19">
+                    <asp:TextBox ID="txtContraseña" style="font-family: 'mv Boli'" runat="server" TextMode="Password" Width="180px" placeholder="CONTRASEÑA" CssClass="auto-style21"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style19">
+                    &nbsp;</td>
+            </tr>
+        </table>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style19" style="font-family: 'MV Boli'">
+                    <asp:Button ID="btnIngresar" style="font-family: 'mv Boli'" runat="server" Text="INGRESAR" BackColor="#595BD4" BorderColor="White" ForeColor="White" Width="180px" CssClass="auto-style20" Height="44px" OnClick="btnIngresar_Click" />
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style19">
+                    <a href="Registros.aspx" style="font-family: 'mv Boli'"><span class="auto-style27">¿No tienes Cuenta? Registrate Aquí</span></a>
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style18">
+            <tr>
+                <td class="auto-style15"></td>
+            </tr>
+        </table>
+        </form>
+        
+        
+</body>
+</html>

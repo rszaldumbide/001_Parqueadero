@@ -1,0 +1,258 @@
+﻿{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'MV Boli';
+    margin:0;
+}
+
+/*AQUI VA EL CODE PARA EL INICIO*/ /**********************************************************************/
+.form-inicio {
+    width: 400px;
+    background: #24303c;
+    /*el padding es para que no se pegue a la caja*/
+    padding: 30px; 
+    /*margin centra el cuadro*/
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'MV Boli';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+    .form-inicio h4 {
+        font-size: 36px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+.controls {
+    width: 380px;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #595BD4;
+    font-family: 'MV Boli';
+    font-size: 18px;
+    color: white;
+}
+
+.form-inicio p {
+    height: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'MV Boli';
+}
+
+.form-inicio a {
+    color: white;
+    text-decoration: none;
+    font-family: 'MV Boli';
+}
+
+    .form-inicio a:hover {
+        color: white;
+        text-decoration: underline;
+        font-family: 'MV Boli';
+    }
+
+.form-inicio .botons {
+    width: 100%;
+    background: #595BD4;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 18px;
+    font-family: 'MV Boli';
+    cursor: pointer;
+}
+
+/*AQUI VA EL CODE PARA EL REGISTRO*/ /**********************************************************************/
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'MV Boli';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+    .form-register h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+.controls {
+    width: 380px;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #595BD4;
+    font-family: 'MV Boli';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p {
+    height: 18px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'MV Boli';
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+    font-family: 'MV Boli';
+}
+
+    .form-register a:hover {
+        color: white;
+        text-decoration: underline;
+        font-family: 'MV Boli';
+    }
+
+.form-register .botons {
+    width: 100%;
+    background: #595BD4;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 18px;
+    font-family: 'MV Boli';
+    cursor: pointer;
+}
+
+/* HEADER */
+
+nav a {
+    font-weight: 600;
+    padding-right: 25px;
+}
+
+    nav a:hover {
+        color: #24303c;
+    }
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 68px;
+    background-image: linear-gradient(15deg, #24303c 0%, #24303c 100%);
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.logo {
+    font-family: "MV Boli";
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.logoImg {
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* FOOTER */
+.pie-pagina {
+    width: 100%;
+    background-image: linear-gradient(15deg, #24303c 0%, #24303c 100%);
+}
+
+    .pie-pagina .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+
+        .pie-pagina .grupo-1 .box figure {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .pie-pagina .grupo-1 .box figure img {
+                width: 150px;
+            }
+
+        .pie-pagina .grupo-1 .box h2 {
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+
+        .pie-pagina .grupo-1 .box p {
+            color: #efefef;
+            margin-bottom: 10px;
+        }
+
+        .pie-pagina .grupo-1 .red-social a {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            color: #fff;
+            margin-right: 10px;
+            background-color: #24303c;
+            text-align: center;
+            border-top-right-radius: 20px;
+        }
+
+            .pie-pagina .grupo-1 .red-social a:hover {
+                color: #595BD4;
+            }
+
+    .pie-pagina .grupo-2 {
+        background-color: #24303c;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+        .pie-pagina .grupo-2 small {
+            font-size: 15px;
+        }
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+.logoFooter {
+    height: 150px;
+    margin-right: 10px;
+}
